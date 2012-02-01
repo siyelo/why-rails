@@ -1,5 +1,7 @@
 # Why Ruby on Rails? #
 
+A short presentation on why Im such a Ruby/RoR fanboi
+
 You can view this presentation if you install the showoff gem.
 
     $ gem install showoff
