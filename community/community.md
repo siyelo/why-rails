@@ -24,9 +24,6 @@
 .notes "Rails developers are a passionate bunch. It’s almost like a religion to them. Gartner says there are a million Ruby programmers today, but analyst Mark Driver reckons that by 2013 there will be four million. [Evans Data] found that Ruby use in North America alone has jumped 40% in the past year, with 14% of developers now using it at least part of the time." - Ken Loh, Oakley
 
 
-
-
-
 !SLIDE bullets incremental
 
 # Great Services (on Rails)
@@ -63,17 +60,45 @@
 .notes publishing / acknowledgement / esteem
 
 
-!SLIDE
-
-* Stop theorizing.
-* Write lots of software.
-* Learn from your mistakes.
-
-
 !SLIDE 
 
 ## Anyone can innovate and create the 
 ## Next Big Thing (TM)
 
 
+!SLIDES bullets incremental
+
+# A Short Digression on git
+
+* distributed version control
+* decentralized
+* branching is cheap
+* merging is cheap
+* releases are cheap
+
+.notes linux core team
+
+
+!SLIDE bullets incremental
+# git
+
+* work in parallel
+* work offline
+* choose the workflow your team likes
+
+
+!SLIDE bullets incremental
+
+# git at Siyelo
+
+* master always stable
+* one branch per feature
+* continuous integration
+* GitHub pull requests
+* reviewer merges
+
+
+!SLIDE
+
+# GitHub empowers communities
 

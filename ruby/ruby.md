@@ -49,12 +49,12 @@
 
 !SLIDE
 # Hello World
-## Ruby / Perl / Python
+## Ruby
 
     @@@ ruby
     print "Hello World!"
 
-
+.notes also perl/python
 
 !SLIDE
 
@@ -88,7 +88,7 @@ uses conventions,
 # Concise
 
     @@@ruby
-    n < 10 ? true : false
+    print total unless total == 0
 
 
 !SLIDE
@@ -99,53 +99,15 @@ uses conventions,
 .notes Yukihiro Matsumoto, programmers are expensive
 
 
-!SLIDE code
-
-    @@@ruby
-    print total unless total == 0
-
-
-!SLIDE code
-
-    @@@ruby
-    3.times { print "ho " }   # => ho ho ho
-
-.notes even simple data types, power, flexibility
-
-
-
 !SLIDE
 
 # Flexibility
 
-## More than one way to skin a cat
+* More than one way to "skin a cat"
+* freely alter/patch core parts of Ruby
+* even at runtime!
 
-.notes freely alter / redefine / aka monkeypatch
-
-
-!SLIDE code
-
-    > ["a","b"].second
-      NoMethodError: undefined method `second'...
-    
-    >  class Array
-         def second
-           self[1]
-         end
-       end
-
-    > ["a","b"].second    # => "b" 
-    > ["a","b"][1]        # => "b"
-
-.notes doesn't patronize you or force you to do things a certain way
-
-
-!SLIDE code
-
-    "octopus".pluralize          # => "octopi"
-    "sheep".pluralize            # => "sheep"
-
-.notes monkey patch the CORE String class
+.notes reflective - allowing metaprogramming
 
 
 !SLIDE
@@ -174,7 +136,5 @@ uses conventions,
 ### - matz ##
 
 ![](simple_jack.jpg)
-
-
 
 
