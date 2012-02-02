@@ -2,7 +2,8 @@
 
 A short presentation on why Im such a Ruby/RoR fanboi
 
-You can view this presentation if you install the showoff gem.
+You can view this presentation online at
+http://siyelo-why-rails.heroku.com, or locally if you install the showoff gem.
 
     $ gem install showoff
     $ git clone git://github.com/siyelo/why-rails.git
@@ -10,6 +11,7 @@ You can view this presentation if you install the showoff gem.
     $ showoff serve
 
 And then open localhost:9090 in your browser.
+
 
 
 Glenn Roberts
